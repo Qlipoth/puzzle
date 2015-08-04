@@ -1,0 +1,49 @@
+
+.puzzle-wrapper {
+ 		padding: 50px;
+       	
+ 	}
+    li {
+        font-size: 1.2em;
+    }
+    .dc1{
+     display: inline-block;
+     margin-right: 60px;
+     vertical-align: top;
+    }
+ 	.segment {
+    position:  relative;
+    margin: 0;
+    float: left;
+    /*box-sizing:border-box;*/
+    
+  }
+
+ 	.container+p {
+ 		clear: both;
+ 	}
+    .wrap_container {
+        width: 300px;
+        height: 500px;
+        
+    }
+   /* #obertka {
+        border: 1px solid red;
+        position: relative;
+    }*/
+ 	.puzzle-bg {
+ 		
+ 		background-size:100% 100%;
+       
+ 		position: relative;
+ 	}
+    .blob {
+        position: relative;
+    }
+ 	.coord span,.coord+p {
+ 		display: block;
+ 		font-size: 1.5em;
+ 	}
+ 	.puzzle-range {
+ 		 
+ 	}
